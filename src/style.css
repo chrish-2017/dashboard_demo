@@ -1,0 +1,44 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  background-color: #91afcf38;
+}
+
+#app {
+  height: 100%;
+}
+
+.wrapper {
+  height: 100%;
+  background-color: #fff;
+  padding: 30px 0;
+}
+
+
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+
+
+.ivu-btn {
+  padding: 6px 20px;
+}
+
+.ivu-btn + .ivu-btn {
+  margin-left: 20px;
+}
