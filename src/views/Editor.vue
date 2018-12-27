@@ -1,5 +1,6 @@
 <template>
   <div class="wrapper">
+    <van-button type="default">默认按钮</van-button>
     <div ref="editor">
       <p>初始化的内容</p>
     </div>
@@ -9,8 +10,10 @@
 
 <script>
   import E from 'wangeditor'
+  import { Button } from 'vant'
 
   export default {
+    components: { VanButton: Button },
     name: "Editor",
     data() {
       return {
